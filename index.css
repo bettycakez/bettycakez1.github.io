@@ -1,8 +1,7 @@
 .heading {
   text-align: center;
   padding-bottom: 20px;
-}
-
-.heading .cta {
-  text-transform: uppercase;
+  max-width:550px;
+  margin-left: auto;
+  margin-right: auto;
 }
