@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;700;900&display=swap'); */
 
-.recrusive-font {
-  font-family: 'Recursive', sans-serif;
-}
+/* .recrusive-font {
+  font-family: 'Inter', sans-serif;
+} */
 
 :root {
   --black: #252525;
@@ -14,8 +14,9 @@
 }
 
 html {
-  font-family: "Recursive", sans-serif;
-  color: var(--black);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      "Lucida Grande", "Segoe UI";  
+      color: var(--black);
 }
 
 body {
@@ -26,10 +27,12 @@ body {
 main {
   max-width: 900px;
   margin: auto;
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2em;
 }
 
@@ -78,7 +81,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  column-gap: 30px;
+  column-gap: 4em;
   height: 70px;
   align-items: center;
 }
@@ -88,7 +91,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  column-gap: 20px;
+  column-gap: 2em;
   justify-content: space-between;
   height: 70px;
   align-items: center;
@@ -100,14 +103,24 @@ footer .copyright {
 
 header nav a,
 footer nav a {
-  padding-right: 5px;
+  padding-right: 2em;
+  color: black !important;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+header nav a:hover,
+footer nav a:hover {
+  padding-right: 2em;
+  color: var(--blue) !important;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 a {
   text-decoration: none;
   color: var(--black);
 }
-
-@import "../about/index.css";
-@import "./submit/index.css";
-@import "./index.css";
