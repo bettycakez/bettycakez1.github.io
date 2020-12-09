@@ -66,8 +66,9 @@ h6 {
   line-height: 1.6em;
 }
 
-a:link {
+a {
   color: var(--blue);
+  text-decoration: none;
 }
 
 a:hover {
@@ -121,9 +122,4 @@ footer nav a:hover {
   font-size: 0.8em;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--black);
 }
