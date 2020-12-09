@@ -8,15 +8,15 @@
   --black: #252525;
   --grey: grey;
   --blue: #2251ff;
-  --green:#14e8bb;
-  --pink:#ea7af4;
+  --green: #14e8bb;
+  --pink: #ea7af4;
   --orange: #ffd744;
 }
 
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-      "Lucida Grande", "Segoe UI";  
-      color: var(--black);
+    "Lucida Grande", "Segoe UI";
+  color: var(--black);
 }
 
 body {
@@ -45,7 +45,6 @@ h3 {
   font-size: 1.1em;
   font-weight: bold;
   line-height: 1.6em;
-
 }
 
 h4 {
@@ -68,11 +67,11 @@ h6 {
 }
 
 a:link {
-  color:var(--blue);
+  color: var(--blue);
 }
 
 a:hover {
-  color:var(--blue);
+  color: var(--blue);
   text-decoration: underline;
 }
 
@@ -84,6 +83,10 @@ header {
   column-gap: 4em;
   height: 70px;
   align-items: center;
+}
+
+header .logo {
+  height: 35px;
 }
 
 footer {
