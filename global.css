@@ -1,8 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 
-/* .recrusive-font {
-  font-family: 'Inter', sans-serif;
-} */
+.sen-font {
+  font-family: 'Sen', sans-serif;
+} 
 
 :root {
   --black: #252525;
@@ -32,7 +32,8 @@ main {
 }
 
 h1 {
-  font-weight: 700;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
   font-size: 2em;
 }
 
@@ -87,7 +88,7 @@ header {
 }
 
 header .logo {
-  height: 35px;
+  height: 45px;
 }
 
 footer {

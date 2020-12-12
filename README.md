@@ -1,4 +1,4 @@
-# Stoa
+# Giving Commons
 
 ## Clone this repo into your local folder
 
